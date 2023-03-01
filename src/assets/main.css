@@ -1,0 +1,21 @@
+@import './base.css';
+
+#app {
+
+  font-weight: normal;
+}
+
+a,
+.orange {
+  text-decoration: none;
+  color: rgb(248, 159, 86);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(22, 100%, 37%, 0.2);
+  }
+}
+
+
